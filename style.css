@@ -1,25 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: Roboto;
     background-color: black;
 }
-
+/* ==================================================================================================== */
 .one {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
 }
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.nav div {
-    font-size: 24px;
-    color: #f9faf8;
-}
-.nav ul {
-    display: flex;
-    list-style: none;
-    gap: 20px;
-    color: #e5e7eb;
-}
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+        .nav div {
+            font-size: 24px;
+            color: #f9faf8;
+        }
+        .nav ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+            font-size: 18px;
+            color: #e5e7eb;
+    }
+    .about {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }   
+        .about div {
+            max-width: 450px;
+        }
+        .about div div {
+            font-size: 48px;
+            color: #f9faf8;
+            font-weight: 900;
+        }
+        .about div p {
+            font-size: 18px;
+            color: #e5e7eb;
+        }
+        .about button {
+            width: 130px;
+            height: 30px;
+            background-color: #3882f6;
+            color: white;
+            border-radius: 4px;
+            border: none;
+            font-weight: bold;
+            font-size: 16px;
+        }
+        .about > p {
+            background-color: gray;
+            height: 200px;
+            width: 300px;
+        }
