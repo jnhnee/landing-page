@@ -1,69 +1,25 @@
 body {
+    font-family: Roboto;
+    background-color: black;
+}
+
+.one {
     display: flex;
     flex-direction: column;
-    font-family: Roboto;
-    margin: 0;
-    padding: 0;
+    background-color: #1f2937;
 }
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1F2937;
-    color: #e5e7eb;
-    padding: 0 100px;
 }
-nav div {
+.nav div {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
-nav ul {
+.nav ul {
     display: flex;
     list-style: none;
     gap: 20px;
-}
-.about {
-    display: flex;
-    justify-content: space-between;
-    background-color: #1F2937;
-    color: #f9faf8;
-    padding: 0 100px;
-}
-.about-content {
-    flex-wrap: wrap;
-    width: 400px;
-    justify-content: center;
-}
-.about-content div {
-    font-size: 48px;
-    font-weight: 900;
-}
-.about-content p {
-    font-size: 18px;
     color: #e5e7eb;
-}
-.about-img {
-    width: 300px;
-    height: 200px;
-    background-color: rgb(180, 174, 174);
-    color: white;
-}
-
-.info-title {
-    text-align: center;
-}
-.info {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 30px;
-    justify-content: center;
-    margin: 20px;
-}
-.info div {
-    width: 100px;
-}
-.info-img {
-    border: 1px solid blue;
-    width: 100px;
-    height: 100px;
 }
