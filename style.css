@@ -15,7 +15,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
-    padding: 50px;
+    padding: 0px 50px 40px 50px;
 }
     .one > div {
         margin: 25px;
@@ -139,14 +139,22 @@ body {
         font-size: 22px;
         font-weight: bold;
         color: #f9faf8;
+        width: 300px;
     } 
     .ad p {
         color: #e5e7eb;
+        font-size: 15px;
     }
     .signup button {
-        padding: 9px 20px;
+        padding: 4px 30px;
         background-color: #3882f6;
         color: #f9faf8;
         border: 2px solid #f9faf8;
         border-radius: 5px;
     }
+.five {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 50px;
+}
