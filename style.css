@@ -79,4 +79,25 @@ body {
         font-size: 36px;
         color: #1f2937;
         font-weight: 900;
+        margin: 40px 0;
+    }
+    .two > div {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    .two > div > div {
+        width: 150px;
+        margin: 0 20px;
+    }
+    .two > div > div > div {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(255, 255, 255);
+        border: 2px solid rgb(33, 129, 189);
+        border-radius: 10px;
+    }
+    .two > div p {
+        margin-top: 10px;
+        text-align: center;
     }
