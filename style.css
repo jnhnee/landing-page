@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: Roboto;
@@ -11,7 +12,11 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1f2937;
+    padding: 50px;
 }
+    .one > div {
+        margin: 25px;
+    }
     .nav {
         display: flex;
         justify-content: space-between;
@@ -58,5 +63,20 @@ body {
         .about > p {
             background-color: gray;
             height: 200px;
-            width: 300px;
+            width: 500px;
+            padding-top: 90px;
+            padding-left: 140px;
+            color: white;
         }
+/* ==================================================================================================== */
+.two {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    align-items:center
+}
+    .two > p {
+        font-size: 36px;
+        color: #1f2937;
+        font-weight: 900;
+    }
