@@ -5,7 +5,10 @@
 }
 body {
     font-family: Roboto;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 /* ==================================================================================================== */
 .one {
@@ -55,10 +58,11 @@ body {
             height: 30px;
             background-color: #3882f6;
             color: white;
-            border-radius: 4px;
+            border-radius: 7px;
             border: none;
             font-weight: bold;
             font-size: 16px;
+            margin-top: 10px;
         }
         .about > p {
             background-color: gray;
@@ -94,7 +98,7 @@ body {
         width: 150px;
         height: 150px;
         background-color: rgb(255, 255, 255);
-        border: 2px solid rgb(33, 129, 189);
+        border: 2px solid #3882f6;
         border-radius: 10px;
     }
     .two > div p {
@@ -119,4 +123,30 @@ body {
         font-weight: bold;
         font-style: normal;
         justify-self: flex-end;
+    }
+/* ==================================================================================================== */
+.four {
+    display: flex;
+    background-color: #3882f6;
+    width: 800px;
+    margin: 70px auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px;
+    border-radius: 20px;
+}
+    .ad div {
+        font-size: 22px;
+        font-weight: bold;
+        color: #f9faf8;
+    } 
+    .ad p {
+        color: #e5e7eb;
+    }
+    .signup button {
+        padding: 9px 20px;
+        background-color: #3882f6;
+        color: #f9faf8;
+        border: 2px solid #f9faf8;
+        border-radius: 5px;
     }
